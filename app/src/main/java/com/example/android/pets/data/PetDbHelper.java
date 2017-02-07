@@ -22,7 +22,7 @@ public class PetDbHelper extends SQLiteOpenHelper{
     //Database version. If you change the database schema, you must increment the database version.
     public static final int DB_VERSION =1;
     //Name of the database file
-    public static final String DB_NAME = "pets";
+    public static final String DB_NAME = "shelter.db";
 
     /**
      * Constructs a new instance of petDBHelper
