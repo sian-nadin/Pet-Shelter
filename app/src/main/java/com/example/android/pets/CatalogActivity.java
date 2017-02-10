@@ -66,7 +66,7 @@ public class CatalogActivity extends AppCompatActivity implements
                 Intent intent = new Intent(CatalogActivity.this, EditorActivity.class);
 
 
-                //From the content URI that represents the specific pet that was clicked on, by appending
+                //Form the content URI that represents the specific pet that was clicked on, by appending
                 // the id (passed as input to this method) onto the CONTENT_URI.
                 Uri currentPetUri = ContentUris.withAppendedId(PetEntry.CONTENT_URI, id);
 
